@@ -1,0 +1,3 @@
+sale_name,discount_type,discount_percentage,region,start_date,end_date,categories
+SPRINGSALE26,percent,20,Everywhere,02/05/2026,01/06/2026,Widgets|Emotes
+SPRINGSALE260,percent,20,Everywhere,03/06/2026,01/07/2026,Widgets|Emotes

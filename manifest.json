@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Etsy Bulk Sale Creator",
+  "version": "1.0.0",
+  "description": "Bulk create and schedule Etsy sales from a CSV file. Upload your sale details and the extension fills every form automatically.",
+  "permissions": [],
+  "web_accessible_resources": [
+    {
+      "resources": ["template.csv"],
+      "matches": ["https://www.etsy.com/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.etsy.com/your/shops/me/sales-discounts*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
