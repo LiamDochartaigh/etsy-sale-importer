@@ -374,7 +374,7 @@ function openModal() {
 
   // Point the template download link at the bundled file inside the extension
   const templateLink = document.getElementById('eta-download-template');
-  templateLink.href = chrome.runtime.getURL('template.csv');
+  templateLink.href = chrome.runtime.getURL('example-template.csv');
 
   document.getElementById('eta-btn-dry-run').addEventListener('click', () => {
     if (_parsedRows.length && _rowResults[0]?.valid) {
