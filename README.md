@@ -17,7 +17,11 @@ A Chrome extension that automates the Etsy sale creation flow. Upload a CSV file
 
 ## Installation
 
-The extension is not published to the Chrome Web Store. Install it manually:
+### Chrome Web Store (recommended)
+
+Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/etsy-bulk-sale-creator/caijnkaagjkkiijihefpeajcoofmcebm) — no setup required.
+
+### Load unpacked (local)
 
 1. Download or clone this repository
 2. Open Chrome and go to `chrome://extensions`
